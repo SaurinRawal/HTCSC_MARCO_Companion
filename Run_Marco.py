@@ -12,6 +12,7 @@ def main():
     csv_path = args['CSV_PATH']
     hit_path = args['HITS_PATH']
     cocktail_path = args['COCKTAIL_PATH']
+    loud = args['LOUD']
     print(images_path)
     #loud = args['LOUD']
 
@@ -31,6 +32,6 @@ def main():
 
     get_crystal_predictions(csv_path, hit_path)
 
-    #if loud: play_sound()
+    if loud is True: play_sound()
 if __name__ == '__main__':
     main()

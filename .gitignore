@@ -1,0 +1,11 @@
+#ignore images
+*.png
+*.jpg
+*gif
+*.jpeg
+
+#ignore csv
+*.csv
+
+#ignore json
+*.json

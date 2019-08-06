@@ -8,5 +8,5 @@ def set_args():
     parser.add_argument('--CSV_PATH', type = str, default = './imageresults.csv',help = 'the csv file where results are written to')
     parser.add_argument('--HITS_PATH', type = str, default = './crystal_hits',help = 'Directory where hit images are stored')
     parser.add_argument('--COCKTAIL_PATH', type = str, default ='./17_C1536_B.csv', help = 'Directory where cocktail data is stored')
-
+    parser.add_argument('--LOUD', type=bool, default='False', help='If set to true plays a tone when program completes')
     return vars(parser.parse_args())
