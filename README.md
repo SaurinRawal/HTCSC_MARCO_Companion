@@ -1,3 +1,9 @@
+# HWI_MARCO
+
+This repository is a collection of companion methods to make processing image data from the High Throughput Crystalization Screening Center at Hauptman-Woodward Medical Research Institute easier and more accesible. 
+
+# Setup
+
 First you will need to get the trained model which is available from Vincent Vanhoucke and [downloadable from here](https://storage.googleapis.com/marco-168219-model/savedmodel.zip). You may also be interested in reviewing the publication on the MARCO model, 
 [Classification of crystallization outcomes using deep convolutional neural networks](https://arxiv.org/abs/1803.10342).
 
