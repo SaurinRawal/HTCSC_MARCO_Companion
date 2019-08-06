@@ -1,4 +1,4 @@
-# HWI_MARCO
+# HTCSC_MARCO_Companion
 
 This repository is a collection of companion methods to make processing image data from the High Throughput Crystalization Screening Center at Hauptman-Woodward Medical Research Institute easier and more accesible. 
 
