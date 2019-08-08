@@ -1,6 +1,9 @@
-# HWI_MARCO
+# MARCO Companion, GUI Version
 
-This repository is a collection of companion methods to make processing image data from the High Throughput Crystalization Screening Center at Hauptman-Woodward Medical Research Institute easier and more accesible. 
+This branch contains the same functionality as the master but is a GUI implementation using [Gooey](https://github.com/chriskiehl/Gooey)
+
+DISCLAIMER
+Gooey itself is working reliably but still in beta. Therefore if something breaks open an issue and checkout the regular command line version. 
 
 # Setup
 
@@ -15,20 +18,13 @@ Finally, you will need the csv version of the HTCSC latest cocktail recipes. A c
 
 # Usage
 
-If the repository has not been added to your Path variables the commad to run the model will look like this
+To launch the GUI naviagate to the directory containing the Run_Marco.py file and execute the command
+```
+python Run_Marco.py
+```
+You of course could do this from another directory as well. Either way you should be greeted by something like this
 
-```
-python Run_Marco.py --PATH (path to your images) --CSV_PATH (location where all results will be written) 
--- HITS_PATH (location where crystal hits will be written)
-```
-If you are not using the included cocktail csv you will also need to specify 
-```
---COCKTAIL PATH (location of your cocktail csv file)
-```
+![Screenshot from 2019-08-08 15-07-15](https://user-images.githubusercontent.com/45807040/62734298-473c4d00-b9ee-11e9-84b7-1d9574dc0c38.png)
 
-# What you get
+From here you can type in or use the ```Browse``` buttons to specify all of the files in question. The GUI is currently designed to handle one job at a time. So if you want to batch process many screening runs I would suggest using the command line version. 
 
-1. Classification of all the images in the location specified by the `--PATH` argument
-2. Csv file containing the classification, confidences, well number and cocktail recipe for all images
-3. Directory containing only the images classified as crystals 
-4. Csv file containing same information as 2. but only for the images classified as crystals 
