@@ -1,6 +1,6 @@
 from Automated_Marco import *
-from file_chem_converter import set_up_cockail_csv
-from args import set_args
+from File_Chem_Converter import set_up_cockail_csv
+from Args import set_args
 
 HWI_NUM_WELLS = 1536
 
@@ -13,8 +13,6 @@ def main():
     hit_path = args['HITS_PATH']
     cocktail_path = args['COCKTAIL_PATH']
     loud = args['LOUD']
-    print(images_path)
-    #loud = args['LOUD']
 
     test_write_locations(csv_path, hit_path)
 
@@ -28,6 +26,7 @@ def main():
                          size,
                          cocktail_dict,
                          iterator)
+    csv_path = csv_validation(csv_path)
     write_csv(csv_data, csv_path)
 
     get_crystal_predictions(csv_path, hit_path)
