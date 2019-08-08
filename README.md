@@ -1,4 +1,4 @@
-# HWI_MARCO
+# MARCO Companion, GUI Version
 
 This branch contains the same functionality as the master but is a GUI implementation using [Gooey](https://github.com/chriskiehl/Gooey)
 
