@@ -24,7 +24,7 @@ python Run_Marco.py
 ```
 You of course could do this from another directory as well. Either way you should be greeted by something like this
 
-![Screenshot from 2019-08-08 14-50-33](https://user-images.githubusercontent.com/45807040/62733313-f1ff3c00-b9eb-11e9-897d-3f1d22a02848.png)
+![Screenshot from 2019-08-08 15-07-15](https://user-images.githubusercontent.com/45807040/62734298-473c4d00-b9ee-11e9-84b7-1d9574dc0c38.png)
 
 From here you can type in or use the ```Browse``` buttons to specify all of the files in question. The GUI is currently designed to handle one job at a time. So if you want to batch process many screening runs I would suggest using the command line version. 
 
