@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 from argparse import ArgumentParser
 from gooey import GooeyParser
 from gooey import Gooey
