@@ -32,3 +32,9 @@ If you are not using the included cocktail csv you will also need to specify
 2. Csv file containing the classification, confidences, well number and cocktail recipe for all images
 3. Directory containing only the images classified as crystals 
 4. Csv file containing same information as 2. but only for the images classified as crystals 
+
+# GUI Version
+This repository also contains a GUI version of the companion which can be found on the Gooey branch. 
+[You can also download it as a release from here](https://github.com/EthanHolleman/HTCSC_MARCO_Companion/tree/Gooey)
+
+![Screenshot from 2019-08-08 15-07-15](https://user-images.githubusercontent.com/45807040/62734298-473c4d00-b9ee-11e9-84b7-1d9574dc0c38.png)
